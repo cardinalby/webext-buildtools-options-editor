@@ -26,10 +26,10 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Run lint
-      run: npm lint
+      run: npm run lint
     - name: Build
       run: npm run build
-    - name: Deploy 🚀
+    - name: Deploy to Github Pages 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
