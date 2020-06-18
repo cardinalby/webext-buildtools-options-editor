@@ -1,2 +1,3 @@
-# webext-buildtools-options-editor
-Utility to help you to prepare options object for webext-buildtools-integrated-builder
+## Introduction
+This JSON editor provides UI for generating Build Runner Options for 
+[webext-buildtools-integrated-builder](https://github.com/cardinalby/webext-buildtools-integrated-builder)
