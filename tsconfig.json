@@ -4,8 +4,8 @@
     "module": "ES6",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "declaration": true,
-    "sourceMap": true,
+    "declaration": false,
+    "sourceMap": false,
     "baseUrl": "src",
     "outDir": "./dist",
     "strict": true
